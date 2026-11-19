@@ -1,14 +1,14 @@
 {
     "##": "SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception. Scoop manifest for the bucket rootcoder007/scoop-crimlab; tap.yml sets version, url and hash for each published release.",
-    "version": "0.0.1",
-    "description": "Criminology and sociolegal statistics from the command-line",
+    "version": "0.0.2",
+    "description": "Statistical Toolkit for Criminology and Sociolegal Research, from the command line",
     "homepage": "https://github.com/rootcoder007/crimlab",
     "license": "Apache-2.0 WITH LLVM-exception",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rootcoder007/crimlab/releases/download/v0.0.1/crimlab-0.0.1-windows-x86_64.zip",
-            "hash": "55403aeb25f1e01f01ed6ba859f9182f8fea590ae369c4f2b684c13a680d45fd",
-            "extract_dir": "crimlab-0.0.1-windows-x86_64"
+            "url": "https://github.com/rootcoder007/crimlab/releases/download/v0.0.2/crimlab-0.0.2-windows-x86_64.zip",
+            "hash": "2507fde00cafca1736cd09668b3788d91b7094755e6444ef97e355cfc483789b",
+            "extract_dir": "crimlab-0.0.2-windows-x86_64"
         }
     },
     "bin": "bin\\crimlab.exe",
