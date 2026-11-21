@@ -1,14 +1,19 @@
 {
     "##": "SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception. Scoop manifest for the bucket rootcoder007/scoop-crimlab; tap.yml sets version, url and hash for each published release.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Statistical Toolkit for Criminology and Sociolegal Research, from the command line",
     "homepage": "https://crimlab.dev/",
     "license": "Apache-2.0 WITH LLVM-exception",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rootcoder007/crimlab/releases/download/v0.0.3/crimlab-0.0.3-windows-x86_64.zip",
-            "hash": "7a156c3b600812d249d7acbbf75271b609766147ac1fab2271bfc90e7e5169c3",
-            "extract_dir": "crimlab-0.0.3-windows-x86_64"
+            "url": "https://github.com/rootcoder007/crimlab/releases/download/v0.0.4/crimlab-0.0.4-windows-x86_64.zip",
+            "hash": "b5129f9063127c1a3b5def3760dce6d1e16cb0fd29b92c1ba524f0f2f8ee9e68",
+            "extract_dir": "crimlab-0.0.4-windows-x86_64"
+        },
+        "arm64": {
+            "url": "https://github.com/rootcoder007/crimlab/releases/download/v0.0.4/crimlab-0.0.4-windows-arm64.zip",
+            "hash": "672d7dadb4b18bebf6ba18d56c341d3b454ebbc627f285b3c1e6f8c7c89a4c89",
+            "extract_dir": "crimlab-0.0.4-windows-arm64"
         }
     },
     "bin": "bin\\crimlab.exe",
@@ -21,6 +26,13 @@
                     "url": "$baseurl/SHA256SUMS"
                 },
                 "extract_dir": "crimlab-$version-windows-x86_64"
+            },
+            "arm64": {
+                "url": "https://github.com/rootcoder007/crimlab/releases/download/v$version/crimlab-$version-windows-arm64.zip",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS"
+                },
+                "extract_dir": "crimlab-$version-windows-arm64"
             }
         }
     }
